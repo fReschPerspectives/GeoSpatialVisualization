@@ -1,0 +1,19 @@
+name: GeoSpatialVisualization
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipython
+  - bs4
+  - folium
+  - geojson
+  - geopandas
+  - lxml
+  - numpy
+  - pandas
+  - requests
+  - seaborn
+  - pip
+  - pip:
+    - .
